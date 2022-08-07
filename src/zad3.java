@@ -3,8 +3,10 @@ public class zad3 {
         int t = 2022;
         int p = t-200;
         int f = t+100;
-        for (int i=p+79;i<=f;i=i+79) {
-            System.out.println(i);
+        for (int i = p;i <= f;i++) {
+            if (i % 79 == 0) {
+                System.out.println(i);
+            }
         }
     }
 }
